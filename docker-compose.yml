@@ -1,0 +1,7 @@
+version: '3'
+services:
+  zombie_apocalypse:
+    image: ruby:2.7.6
+    working_dir: /usr/app/
+    volumes:
+      - ./:/usr/app/
